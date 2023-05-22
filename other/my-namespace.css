@@ -1,0 +1,14 @@
+  .my-namespace-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .my-namespace-grid-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .my-namespace-grid-item iframe {
+    width: 100%;
+  }
