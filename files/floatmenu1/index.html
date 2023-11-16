@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Floating Menu</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html ng-app="ionicApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">  
+    <title>Toggle</title>
+    <link href="//code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+    <script src="//code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+  </head>
+  <body ng-controller="MainCtrl"> 
+    HI
+    <input type="button" value ="click me" ng-click="test()" />
+<!--     <button type="button" value="Click me" ></button>  -->
+    </ion-content>  
+  <ion-floating-menu>
+    <ion-floating-item icon="ion-camera" ng-click="first()" text="Add Contact"></ion-floating-item>
+    <ion-floating-item icon="ion-person" ng-click="myEvent()" text="My Contact"></ion-floating-item>
+</ion-floating-menu>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
